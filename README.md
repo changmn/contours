@@ -3,6 +3,8 @@ A GPU-accelerated isoline generator written in C++.
 
 This project provides a class, IsolineGenerator, that generates isolines for a texture of weight values.  The isoline vertices are created in a geometry shader and returned in a vertex buffer using transform feedback.  The isolines can then be rendered as GL_LINEs using a user-provided program.
 
+The generated isolines seem to look good, at least for lines drawn with GL_LINE.  I haven't tried extruding them into thicker lines or antialiased lines yet, so we'll see. This is definitely a work in progress, and likely to change.  If you have any ideas or suggestions, please let me know!
+
 ## Basic Usage:
 
     GLint Nx = 500; // Grid width
