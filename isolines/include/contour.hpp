@@ -1,5 +1,5 @@
-#ifndef MSQUARES_HPP
-#define MSQUARES_HPP
+#ifndef __CONTOUR_HPP
+#define __CONTOUR_HPP
 
 // Silence OpenGL deprecation warnings on OSX.
 #ifdef __APPLE__
@@ -96,4 +96,4 @@ private:
 
 } // contour
 
-#endif // MSQUARES_HPP
+#endif // __CONTOUR_HPP
