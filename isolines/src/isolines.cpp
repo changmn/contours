@@ -1,6 +1,6 @@
 
 
-#include "../include/contour.hpp"
+#include "../include/isolines.hpp"
 
 namespace contour {
 
