@@ -21,7 +21,7 @@ The generated isolines seem to look good, at least for lines drawn with GL_LINE.
         //    generated in real time for animations. **
 
         // Generate the isoline.
-        GLsizei num_vertices = ms.update(in_texture, out_buffer, isolevel);
+        GLsizei num_vertices = generator.update(in_texture, out_buffer, isolevel);
 
         // ** Render the isoline. **
     }
