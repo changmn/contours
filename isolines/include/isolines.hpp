@@ -1,5 +1,5 @@
-#ifndef __CONTOUR_HPP
-#define __CONTOUR_HPP
+#ifndef __ISOLINES_HPP
+#define __ISOLINES_HPP
 
 // Silence OpenGL deprecation warnings on OSX.
 #ifdef __APPLE__
@@ -96,4 +96,4 @@ private:
 
 } // contour
 
-#endif // __CONTOUR_HPP
+#endif // __ISOLINES_HPP
