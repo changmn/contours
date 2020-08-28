@@ -1,4 +1,4 @@
-# contour
+# contours
 A GPU-accelerated isoline generator written in C++.
 
 This project provides a class, IsolineGenerator, that generates isolines for a texture of weight values.  The isoline vertices are created in a geometry shader and returned in a vertex buffer using transform feedback.  The isolines can then be rendered as GL_LINEs using a user-provided program.
