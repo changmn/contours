@@ -72,7 +72,7 @@
 //    7 ==  8
 //
 
-namespace contour {
+namespace contours {
 
 class IsolineGenerator {
 public:
@@ -94,6 +94,6 @@ private:
     GLuint        m_iso_loc;
 };
 
-} // contour
+} // contours
 
 #endif // __ISOLINES_HPP
