@@ -2,7 +2,7 @@
 
 #include "../include/isolines.hpp"
 
-namespace contour {
+namespace contours {
 
 IsolineGenerator::IsolineGenerator(GLint Nx, GLint Ny)
     : m_STATE_SIZE((Nx-1) * (Ny-1))
@@ -113,4 +113,4 @@ GLsizei IsolineGenerator::update(GLuint weights, GLuint output, GLfloat isolevel
     return n * 2;
 }
 
-} // contour
+} // contours
